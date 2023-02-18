@@ -1,4 +1,4 @@
-<h1 align="center"><b>#boraCodar</b> {nome do desafio} </h1>
+<h1 align="center"><b>#boraCodar</b> um site para encontrar seu bloco no carnaval </h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="Um card de produto" src=".github/preview.jpg" width="100%">
+  <img alt="um site para encontrar seu bloco no carnaval" src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias

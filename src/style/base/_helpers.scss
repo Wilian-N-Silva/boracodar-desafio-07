@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+  padding: 0 24px;
+
+  @include breakpoint-min-md {
+    padding: 0 32px;
+    max-width: $container-max-width-lg;
+  }
+}

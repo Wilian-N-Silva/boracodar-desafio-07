@@ -1,0 +1,14 @@
+.capturing-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 40px;
+  background-color: $color-white-50;
+  border: 1px solid $color-white-300;
+  border-radius: 10px;
+  margin-top: 40px;
+
+  @include breakpoint-min-lg {
+    flex-direction: row;
+  }
+}

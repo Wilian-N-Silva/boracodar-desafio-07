@@ -1,0 +1,31 @@
+.content {
+  padding: 100px 0;
+  &__heading {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include breakpoint-min-md {
+      flex-direction: row;
+    }
+
+    & h2 {
+      font: $typography-heading-2;
+    }
+  }
+
+  &__list {
+    display: grid;
+    // row-gap: 32px;
+    gap: 32px;
+    grid-template-columns: 1fr;
+
+    @include breakpoint-min-md {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include breakpoint-min-lg {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
